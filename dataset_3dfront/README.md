@@ -20,7 +20,7 @@ cd dataset_3dfront
 ```
 python gen_cat2id_all.py # assets/gen_cat2id_all.py
 ```
-- Generate `assets/cat2id_bedroom.pkl` and `assets/cat2id_living.pkl`
+- Generate `assets/cat2id_bedroom.pkl` and `assets/cat2id_living.pkl`(this script get the most frequency top 20 furniture )
 ```
 type=bedroom; # or living
 python json2layout_distribution.py --type $type
