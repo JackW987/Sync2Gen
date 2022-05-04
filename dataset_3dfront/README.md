@@ -16,7 +16,7 @@
 cd dataset_3dfront
 ```
 
-- Generate `assets/cat2id_all.pkl`:
+- Generate `assets/cat2id_all.pkl`:(this cat2id_all.pkl include all cat in dataset type:dict )
 ```
 python gen_cat2id_all.py # assets/gen_cat2id_all.py
 ```
